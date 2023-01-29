@@ -1,0 +1,159 @@
+@media (max-width: 700px){
+  
+  .hero-container{
+    /* max-width: 100%; */
+    width: 689px;
+    height: 500px;
+    padding-left: 58px;
+    background-image: url(../img/responsive-bg-img-tablet.png);
+    background-repeat: no-repeat;
+  }
+
+  .header-menu a{
+    display: none;
+  }
+
+  .header-menu i{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    display: block;
+  } 
+
+  .header-title{
+    padding-top: 104px;
+    font-size: 48px;
+  }
+
+  .header-text{
+    padding-bottom: 40px;
+    font-size: 15px;
+  }
+
+  .header-hero-btn{
+    padding: 15px 31px 16px 31px;
+    font-size: 16px;
+  }
+
+  .our-collection-title{
+    font-size: 60px;
+  }
+
+  .boxes-element{
+    position: relative;
+    left: -100px;
+    flex-wrap: wrap;
+  }
+  
+  .element-items{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boxes-title{
+    position: relative;
+    top: -40px;
+    text-align: left;
+    font-size: 24px;
+  }
+
+  .boxes-text{
+    position: relative;
+    top: -16px;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .main-section-container{
+    position: relative;
+    top: 85px;
+    width: 688px;
+  }
+
+  .infarmation-title{
+    position: relative;
+    top: -44px;
+    font-size: 32px;
+  }
+
+  .infarmation-text{
+    position: relative;
+    top: -54px;
+    font-size: 15px;
+  }
+
+  .boxes-lists{
+    flex-direction: column;
+  }
+
+  .list-items{
+    position: relative;
+    top: -90px;
+    left: 35px;
+    margin-top: 24px;
+    width: 573px;
+    height: 200px;
+    display: flex; 
+  }
+
+  .list-items img{
+    position: relative;
+    top: 62px;
+    left: 70px;
+  }
+
+  .lists-el{
+    padding-left: 140px;    
+  }
+
+  .lists-title{
+    position: relative;
+    top: -69px;
+    font-size: 24px;
+    text-align: left;
+  }
+  
+  .lists-text{
+    position: relative;
+    top: -46px;
+    padding-bottom: 41px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .works-container{
+    position: relative;
+    top: -26px;
+    width: 689px;
+  }
+
+  .how-it-works-img{
+    position: relative;
+    top: -40px;
+    width: 497px;
+    height: 31px;
+  }
+
+  .menu-lists img{
+    position: relative;
+    top: -52px;
+    left: 50px; 
+  }
+
+  .select-coffe-title{
+    width: 223px;
+    height: 65px;
+    flex-wrap: wrap;
+    font-size: 28px;
+  }
+
+  .coffee-infarmation-text{
+    width: 210px;
+    height: 154px;
+    flex-wrap: wrap;
+    font-size: 15px;
+  }
+
+}
+

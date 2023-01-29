@@ -1,0 +1,1045 @@
+@font-face {
+  font-family: 'Fraunces 9pt SuperSoft';
+  src: url('../fonts/Fraunces9ptSuperSoft-Thin.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSuperSoft-Thin.woff') format('woff'),
+  url('../fonts/Fraunces9ptSuperSoft-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt';
+  src: url('../fonts/Fraunces9pt-Regular.woff2') format('woff2'),
+  url('../fonts/Fraunces9pt-Regular.woff') format('woff'),
+  url('../fonts/Fraunces9pt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt SuperSoft';
+  src: url('../fonts/Fraunces9ptSuperSoft-Light.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSuperSoft-Light.woff') format('woff'),
+  url('../fonts/Fraunces9ptSuperSoft-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt SuperSoft';
+  src: url('../fonts/Fraunces9ptSuperSoft-Regular.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSuperSoft-Regular.woff') format('woff'),
+  url('../fonts/Fraunces9ptSuperSoft-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt';
+  src: url('../fonts/Fraunces9pt-Light.woff2') format('woff2'),
+  url('../fonts/Fraunces9pt-Light.woff') format('woff'),
+  url('../fonts/Fraunces9pt-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt';
+  src: url('../fonts/Fraunces9pt-Bold.woff2') format('woff2'),
+  url('../fonts/Fraunces9pt-Bold.woff') format('woff'),
+  url('../fonts/Fraunces9pt-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt SuperSoft';
+  src: url('../fonts/Fraunces9ptSuperSoft-SemiBold.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSuperSoft-SemiBold.woff') format('woff'),
+  url('../fonts/Fraunces9ptSuperSoft-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt';
+  src: url('../fonts/Fraunces9pt-Black.woff2') format('woff2'),
+  url('../fonts/Fraunces9pt-Black.woff') format('woff'),
+  url('../fonts/Fraunces9pt-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt SuperSoft';
+  src: url('../fonts/Fraunces9ptSuperSoft-Bold.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSuperSoft-Bold.woff') format('woff'),
+  url('../fonts/Fraunces9ptSuperSoft-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt';
+  src: url('../fonts/Fraunces9pt-SemiBold.woff2') format('woff2'),
+  url('../fonts/Fraunces9pt-SemiBold.woff') format('woff'),
+  url('../fonts/Fraunces9pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../fonts/Barlow-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Barlow-ExtraBold.woff') format('woff'),
+  url('../fonts/Barlow-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../fonts/Barlow-Light.woff2') format('woff2'),
+  url('../fonts/Barlow-Light.woff') format('woff'),
+  url('../fonts/Barlow-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt Soft';
+  src: url('../fonts/Fraunces72ptSoft-Black.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSoft-Black.woff') format('woff'),
+  url('../fonts/Fraunces72ptSoft-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt Soft';
+  src: url('../fonts/Fraunces72ptSoft-Bold.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSoft-Bold.woff') format('woff'),
+  url('../fonts/Fraunces72ptSoft-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt Soft';
+  src: url('../fonts/Fraunces9ptSoft-Black.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSoft-Black.woff') format('woff'),
+  url('../fonts/Fraunces9ptSoft-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../fonts/Barlow-Bold.woff2') format('woff2'),
+  url('../fonts/Barlow-Bold.woff') format('woff'),
+  url('../fonts/Barlow-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../fonts/Barlow-Medium.woff2') format('woff2'),
+  url('../fonts/Barlow-Medium.woff') format('woff'),
+  url('../fonts/Barlow-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt';
+  src: url('../fonts/Fraunces9pt-Thin.woff2') format('woff2'),
+  url('../fonts/Fraunces9pt-Thin.woff') format('woff'),
+  url('../fonts/Fraunces9pt-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../fonts/Barlow-Regular.woff2') format('woff2'),
+  url('../fonts/Barlow-Regular.woff') format('woff'),
+  url('../fonts/Barlow-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../fonts/Barlow-ExtraLight.woff2') format('woff2'),
+  url('../fonts/Barlow-ExtraLight.woff') format('woff'),
+  url('../fonts/Barlow-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../fonts/Barlow-Thin.woff2') format('woff2'),
+  url('../fonts/Barlow-Thin.woff') format('woff'),
+  url('../fonts/Barlow-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt Soft';
+  src: url('../fonts/Fraunces72ptSoft-Light.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSoft-Light.woff') format('woff'),
+  url('../fonts/Fraunces72ptSoft-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../fonts/Barlow-Black.woff2') format('woff2'),
+  url('../fonts/Barlow-Black.woff') format('woff'),
+  url('../fonts/Barlow-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../fonts/Barlow-SemiBold.woff2') format('woff2'),
+  url('../fonts/Barlow-SemiBold.woff') format('woff'),
+  url('../fonts/Barlow-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt SuperSoft';
+  src: url('../fonts/Fraunces9ptSuperSoft-Black.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSuperSoft-Black.woff') format('woff'),
+  url('../fonts/Fraunces9ptSuperSoft-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt Soft';
+  src: url('../fonts/Fraunces9ptSoft-Light.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSoft-Light.woff') format('woff'),
+  url('../fonts/Fraunces9ptSoft-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt Soft';
+  src: url('../fonts/Fraunces9ptSoft-SemiBold.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSoft-SemiBold.woff') format('woff'),
+  url('../fonts/Fraunces9ptSoft-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt Soft';
+  src: url('../fonts/Fraunces9ptSoft-Thin.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSoft-Thin.woff') format('woff'),
+  url('../fonts/Fraunces9ptSoft-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt Soft';
+  src: url('../fonts/Fraunces9ptSoft-Regular.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSoft-Regular.woff') format('woff'),
+  url('../fonts/Fraunces9ptSoft-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 9pt Soft';
+  src: url('../fonts/Fraunces9ptSoft-Bold.woff2') format('woff2'),
+  url('../fonts/Fraunces9ptSoft-Bold.woff') format('woff'),
+  url('../fonts/Fraunces9ptSoft-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt SuperSoft';
+  src: url('../fonts/Fraunces72ptSuperSoft-Bold.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSuperSoft-Bold.woff') format('woff'),
+  url('../fonts/Fraunces72ptSuperSoft-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt SuperSoft';
+  src: url('../fonts/Fraunces72ptSuperSoft-Thin.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSuperSoft-Thin.woff') format('woff'),
+  url('../fonts/Fraunces72ptSuperSoft-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt SuperSoft';
+  src: url('../fonts/Fraunces72ptSuperSoft-Black.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSuperSoft-Black.woff') format('woff'),
+  url('../fonts/Fraunces72ptSuperSoft-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt';
+  src: url('../fonts/Fraunces144pt-Italic.woff2') format('woff2'),
+  url('../fonts/Fraunces144pt-Italic.woff') format('woff'),
+  url('../fonts/Fraunces144pt-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt Soft';
+  src: url('../fonts/Fraunces72ptSoft-Regular.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSoft-Regular.woff') format('woff'),
+  url('../fonts/Fraunces72ptSoft-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt';
+  src: url('../fonts/Fraunces72pt-Bold.woff2') format('woff2'),
+  url('../fonts/Fraunces72pt-Bold.woff') format('woff'),
+  url('../fonts/Fraunces72pt-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt SuperSoft';
+  src: url('../fonts/Fraunces72ptSuperSoft-SemiBold.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSuperSoft-SemiBold.woff') format('woff'),
+  url('../fonts/Fraunces72ptSuperSoft-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt';
+  src: url('../fonts/Fraunces72pt-Black.woff2') format('woff2'),
+  url('../fonts/Fraunces72pt-Black.woff') format('woff'),
+  url('../fonts/Fraunces72pt-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt SuperSoft';
+  src: url('../fonts/Fraunces72ptSuperSoft-Light.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSuperSoft-Light.woff') format('woff'),
+  url('../fonts/Fraunces72ptSuperSoft-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt Soft';
+  src: url('../fonts/Fraunces72ptSoft-SemiBold.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSoft-SemiBold.woff') format('woff'),
+  url('../fonts/Fraunces72ptSoft-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt SuperSoft';
+  src: url('../fonts/Fraunces72ptSuperSoft-Regular.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSuperSoft-Regular.woff') format('woff'),
+  url('../fonts/Fraunces72ptSuperSoft-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt Soft';
+  src: url('../fonts/Fraunces72ptSoft-Thin.woff2') format('woff2'),
+  url('../fonts/Fraunces72ptSoft-Thin.woff') format('woff'),
+  url('../fonts/Fraunces72ptSoft-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt SuperSoft';
+  src: url('../fonts/Fraunces144ptSuperSoft-Bold.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSuperSoft-Bold.woff') format('woff'),
+  url('../fonts/Fraunces144ptSuperSoft-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt SuperSoft';
+  src: url('../fonts/Fraunces144ptSuperSoft-Light.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSuperSoft-Light.woff') format('woff'),
+  url('../fonts/Fraunces144ptSuperSoft-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt SuperSoft';
+  src: url('../fonts/Fraunces144ptSuperSoft-Black.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSuperSoft-Black.woff') format('woff'),
+  url('../fonts/Fraunces144ptSuperSoft-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt';
+  src: url('../fonts/Fraunces72pt-Light.woff2') format('woff2'),
+  url('../fonts/Fraunces72pt-Light.woff') format('woff'),
+  url('../fonts/Fraunces72pt-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt Soft';
+  src: url('../fonts/Fraunces144ptSoft-Regular.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSoft-Regular.woff') format('woff'),
+  url('../fonts/Fraunces144ptSoft-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt';
+  src: url('../fonts/Fraunces72pt-Regular.woff2') format('woff2'),
+  url('../fonts/Fraunces72pt-Regular.woff') format('woff'),
+  url('../fonts/Fraunces72pt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt';
+  src: url('../fonts/Fraunces72pt-Thin.woff2') format('woff2'),
+  url('../fonts/Fraunces72pt-Thin.woff') format('woff'),
+  url('../fonts/Fraunces72pt-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt SuperSoft';
+  src: url('../fonts/Fraunces144ptSuperSoft-SemiBold.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSuperSoft-SemiBold.woff') format('woff'),
+  url('../fonts/Fraunces144ptSuperSoft-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt Soft';
+  src: url('../fonts/Fraunces144ptSoft-Light.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSoft-Light.woff') format('woff'),
+  url('../fonts/Fraunces144ptSoft-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt Soft';
+  src: url('../fonts/Fraunces144ptSoft-SemiBold.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSoft-SemiBold.woff') format('woff'),
+  url('../fonts/Fraunces144ptSoft-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt Soft';
+  src: url('../fonts/Fraunces144ptSoft-Thin.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSoft-Thin.woff') format('woff'),
+  url('../fonts/Fraunces144ptSoft-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt SuperSoft';
+  src: url('../fonts/Fraunces144ptSuperSoft-Regular.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSuperSoft-Regular.woff') format('woff'),
+  url('../fonts/Fraunces144ptSuperSoft-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 72pt';
+  src: url('../fonts/Fraunces72pt-SemiBold.woff2') format('woff2'),
+  url('../fonts/Fraunces72pt-SemiBold.woff') format('woff'),
+  url('../fonts/Fraunces72pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt Soft';
+  src: url('../fonts/Fraunces144ptSoft-Bold.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSoft-Bold.woff') format('woff'),
+  url('../fonts/Fraunces144ptSoft-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt Soft';
+  src: url('../fonts/Fraunces144ptSoft-Black.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSoft-Black.woff') format('woff'),
+  url('../fonts/Fraunces144ptSoft-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt';
+  src: url('../fonts/Fraunces144pt-Bold.woff2') format('woff2'),
+  url('../fonts/Fraunces144pt-Bold.woff') format('woff'),
+  url('../fonts/Fraunces144pt-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt';
+  src: url('../fonts/Fraunces144pt-Black.woff2') format('woff2'),
+  url('../fonts/Fraunces144pt-Black.woff') format('woff'),
+  url('../fonts/Fraunces144pt-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt SuperSoft';
+  src: url('../fonts/Fraunces144ptSuperSoft-Thin.woff2') format('woff2'),
+  url('../fonts/Fraunces144ptSuperSoft-Thin.woff') format('woff'),
+  url('../fonts/Fraunces144ptSuperSoft-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt';
+  src: url('../fonts/Fraunces144pt-Thin.woff2') format('woff2'),
+  url('../fonts/Fraunces144pt-Thin.woff') format('woff'),
+  url('../fonts/Fraunces144pt-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt';
+  src: url('../fonts/Fraunces144pt-SemiBold.woff2') format('woff2'),
+  url('../fonts/Fraunces144pt-SemiBold.woff') format('woff'),
+  url('../fonts/Fraunces144pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces 144pt';
+  src: url('../fonts/Fraunces144pt-Regular.woff2') format('woff2'),
+  url('../fonts/Fraunces144pt-Regular.woff') format('woff'),
+  url('../fonts/Fraunces144pt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* General Css */
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-size: 16px;
+}
+
+img{
+  display: inline-block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1440px;
+}
+
+.site-btn{
+  background: #0E8784;
+  border: 1px hidden black;
+  border-radius: 6px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.site-btn:hover{
+  background: #66D2CF;
+  transition: 0.5s;
+}
+
+.site-btn:active{
+  background: #E2DEDB;
+}
+
+/* Site-header-started */
+
+.header-container{
+  padding-top: 43.56px;
+  padding-left: 60px;
+  padding-bottom: 65.44px;
+  padding-right:  40px;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.header-menu{
+  display: flex; 
+}
+
+.header-menu-item{
+  padding-left: 33px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+}
+
+.header-menu-link{
+  color: #83888F;
+}
+
+.header-menu-link:hover{
+  color: #333D4B;
+}
+
+.hero-container{
+  padding-top: 100px;
+  padding-left: 85px;
+  width: 1280px;
+  height: 450px;
+  background-image: url(../img/create-your-plan-hero-img.png);
+  background-repeat: no-repeat;
+}
+
+.header-title{
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+}
+
+.header-text{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+/* Site-header-end */
+/* Site-main-started */
+
+.works-container{
+  position: relative;
+  top: 177px;
+  padding-top: 106.5px;
+  padding-left: 85px;
+  width: 1280px;
+  height: 653px;
+  background-image: url(../img/create-your-plan-main-img.png);
+  background-repeat: no-repeat;
+}
+
+.box-menu{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-lists{
+  padding-top: 67px;
+}
+
+.select-coffe-title{
+  padding-top: 38px;
+  padding-bottom: 42px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+}
+
+.coffee-infarmation-text{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.questionnaire-container{
+  position: absolute;
+  left: 165px;
+  top: 1552px;
+  width: 1110px;
+  display: flex;
+}
+
+.questionnaire-item{
+  display: flex;
+  padding-top: 49px;
+}
+
+.questionnaire-title{
+  padding-left: 26px; 
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  border-bottom: 1px solid #83888F;
+}
+
+.selection-question{
+  display: flex;
+}
+
+.selection-question img{
+  position: relative;
+  top: 20xpx;
+  left: 80px; 
+} 
+
+.selection-menu{
+  padding-top: 80px;
+}
+
+.selection-question-title{
+  padding-left: 125px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.selection-box-menu{
+  padding-top: 56px;
+  padding-left: 102px;
+  display: flex;
+}
+
+.selection-box-items{
+  margin-left: 23px;
+  padding-top: 32px;
+  padding-left: 28px;
+  background: #F4F1EB;
+  border-radius: 8px;
+}
+
+.selection-box-title{
+  padding-right: 101px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.selection-box-text{
+  padding-top: 24px;
+  padding-right: 28px;
+  padding-bottom: 24px;
+  padding-bottom: 64px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;  
+}
+
+.selection-box-items-selected{
+  margin-left: 23px;
+  padding-top: 32px;
+  padding-left: 28px;
+  background: #0E8784;
+  border-radius: 8px;
+}
+
+.selection-box-title-selected{
+  padding-right: 101px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.selection-box-text-selected{
+  padding-top: 24px;
+  padding-right: 28px;
+  padding-bottom: 24px;
+  padding-bottom: 64px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.order-summary-container{
+  position: absolute;
+  left: 545px;
+  top: 3762px;
+  width: 730px;
+  height: 208px;
+  padding-top: 88px;
+}
+
+.order-summary-el{
+  width: 730px;
+  height: 208px;
+  padding-top: 27px;
+  padding-left: 64px;
+  background-image: url(../img/order-summary-bg-img.png);
+}
+
+.order-summary-el span{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.order-summary-text{
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.order-summary-text span{
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #0E8784;
+}
+
+.site-btn{
+  position: relative;
+  top: 40px;
+  left: 513px;
+  padding: 15px 35.5px 16px 35.5px;
+  background: #0E8784;
+  border: 1px hidden black;
+  border-radius: 6px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.site-btn:hover{
+  background: #66D2CF;
+  transition: 0.5s;
+}
+
+.site-btn:active{
+  background: #E2DEDB;
+}
+
+/* Site-main-end */
+/* Site-footer-started */
+
+.site-footer-container{
+  position: relative;
+  top: 192.5em;
+  width: 1280px;
+  height: 120px;
+  background-color: #2C343E;
+}
+
+.footer-elements{
+  padding-top: 47px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-menu {
+  display: flex;
+}
+
+.footer-lists-link{
+  color: #83888F;
+}
+
+.footer-lists-link:hover{
+  color: #fff;
+}
+
+.footer-lists-link:active{
+  color: #fff;
+}
+
+.footer-menu-lists{
+  padding-top: 6.44px;
+  padding-right: 33px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+}
+
+.footer-lists{
+  display: flex;
+}
+
+.footer-icon{
+  padding-right: 24px;
+}
+
+/* Site-footer-end */
